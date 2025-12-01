@@ -9,6 +9,7 @@ class Personaje:
         self.y = y
         self.vida = 100
         self.movimientos = 0
+        self.arma = None
 
     def mover(self, dx, dy, base_matriz):
         nuevo_x = self.x + dx
